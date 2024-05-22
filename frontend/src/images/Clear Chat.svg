@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="27.414" viewBox="0 0 26 27.414">
+  <g id="Clear_Chat" data-name="Clear Chat" transform="translate(-1716 -125)">
+    <path id="Icon_material-chat-bubble" data-name="Icon material-chat-bubble" d="M24.6,3H5.4A2.407,2.407,0,0,0,3,5.4V27l4.8-4.8H24.6A2.407,2.407,0,0,0,27,19.8V5.4A2.407,2.407,0,0,0,24.6,3Z" transform="translate(1714 123)" fill="none" stroke="#eee6ff" stroke-width="2"/>
+    <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M15.824,14.957l2.621-2.621a.614.614,0,0,0-.869-.869l-2.621,2.621-2.621-2.621a.614.614,0,1,0-.869.869l2.621,2.621-2.621,2.621a.614.614,0,0,0,.869.869l2.621-2.621,2.621,2.621a.614.614,0,0,0,.869-.869Z" transform="translate(1714.045 120.642)" fill="#eee6ff"/>
+  </g>
+</svg>

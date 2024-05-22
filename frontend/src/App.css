@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: #1d0128;
+}
+
+.react-chatbot-kit-chat-container {
+  width: calc(100vw - 250px);
+  height: calc(100vh - 80px);
+  margin-top: 20px;
+}
+
+.react-chatbot-kit-chat-input-container {
+  position: relative;
+  padding: 0 17.5px 10px 17.5px;
+}
+
+.react-chatbot-kit-chat-input {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #2c1a32;
+  border: 1px solid #706683;
+}
+
+.react-chatbot-kit-user-chat-message {
+  overflow-wrap: break-word;
+  margin-left: 0;
+  background-color: transparent;
+  color: #ccbeea;
+  max-width: calc(100% - 80px);
+  padding: 0;
+  margin-top: 5%;
+}
+
+.react-chatbot-kit-chat-message-container {
+  overflow: auto;
+  height: 80%;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 35px;
+  background-color: transparent;
+  color: #ccbeea;
+  width: 60vw;
+  padding: 0px 10px;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #4f89ab;
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.react-chatbot-kit-chat-btn-send .react-chatbot-kit-chat-btn-send-icon {
+  display: none;
+}
+
+/* Add your custom image */
+.react-chatbot-kit-chat-btn-send {
+  /* Your existing styles */
+  /* Ensure the button has relative positioning */
+  position: relative;
+  width: 60px;
+}
+
+/* Add styling for the custom image */
+.react-chatbot-kit-chat-btn-send::after {
+  content: ""; /* Ensure the pseudo-element has content */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px; /* Adjust width as needed */
+  height: 24px; /* Adjust height as needed */
+  background-image: url("../src/images/circle-up.svg"); /* Add your image path here */
+  background-size: cover; /* Adjust background size as needed */
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #eee6ff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.react-chatbot-kit-chat-btn-send-icon {
+  fill: #2c1a32;
+}
+
+.react-chatbot-kit-chat-bot-message-container,
+.react-chatbot-kit-user-chat-message-container {
+  align-items: center;
+}
+.react-chatbot-kit-user-chat-message-container {
+  flex-flow: row-reverse;
+}
+.react-chatbot-kit-chat-bot-message-container {
+  display: block;
+}
+input {
+  color: #cbbce9;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #cbbce9;
+}
+.react-chatbot-kit-chat-inner-container {
+  background-color: #2d1b33;
+  height: calc(100vh - 80px);
+  color: white;
+}
+.react-chatbot-kit-chat-bot-message-arrow,
+.react-chatbot-kit-user-chat-message-arrow {
+  display: none;
+}
+
+.BOT {
+  background-color: #3c85b0;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+}
+
+.USER {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  color: rgb(232, 234, 237);
+  border-radius: 100%;
+  margin-left: 0;
+  border: 0;
+}
+
+.userBuuton {
+  width: 40px;
+  border-radius: 100%;
+  height: 40px;
+  border: 0px none;
+}
+
+.start-btn {
+  background-color: #4f89ab;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.slow-btn {
+  margin-left: 1rem;
+}
+
+.img-component {
+  margin-left: 3rem;
+  /* position: relative; */
+}
+
+.img-container {
+  width: 185px;
+  height: 185px;
+  border: 2px solid #61045f;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-component a {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background-color: #61045f;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.img-component a:hover {
+  background-color: #61045f5e;
+}
+
+input[type="file" i] {
+  cursor: pointer;
+  /* background-color: #61045F; */
+}
