@@ -21,9 +21,6 @@ retriever = machineIndex.as_retriever(
     },
     filters=None,
 )
-#Retrive Query
-# Uses LLM to synthesize results from the search index.
-# Use Vertex PaLM Text API for LLM
 qa = RetrievalQA.from_chain_type(
     llm=llm,
     chain_type="stuff",

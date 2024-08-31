@@ -52,5 +52,5 @@ def parent_chat(
     qa.retriever.search_kwargs["k"] = k
     qa.retriever.search_kwargs["filters"] = filters
     result = qa({"query": query})
-    print(result['result'])
+    #print(result['result'])
     return result['result']
